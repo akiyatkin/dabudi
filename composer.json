@@ -1,0 +1,10 @@
+{
+	"name": "akiyatkin/dabudi",
+	"conf":"akiyatkin\\dabudi\\Dabudi",
+	"autoload": {
+		"psr-4": { "akiyatkin\\dabudi\\": "" }
+	},
+	"require":{
+		"infrajs/rest":"~1"
+	}
+}

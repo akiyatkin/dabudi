@@ -1,3 +1,4 @@
 {
-	"conf":"akiyatkin\\dabudi\\Dabudi"
+	"conf":"akiyatkin\\dabudi\\Model",
+	"tester":"tester.php"
 }

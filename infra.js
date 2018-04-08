@@ -1,0 +1,1 @@
+Template.scope.Dabudi = Dabudi;

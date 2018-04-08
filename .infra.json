@@ -1,4 +1,6 @@
 {
 	"conf":"akiyatkin\\dabudi\\Model",
+	"js":["Dabudi.js","infra.js"],
+	"require":"infra.php",
 	"tester":"tester.php"
 }

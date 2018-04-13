@@ -6,7 +6,7 @@ use infrajs\ans\Ans;
 $ans = array();
 
 $pos = array(
-	'itemrows'=>['Цена','Файлы','Размер', 'Цвет'], 
+	'itemrows'=>['Цена'=>1,'Файлы'=>1,'Размер'=>1, 'Цвет'=>1], 
 	'Цена' => 1000, 'Файлы' => false, 
 	'more'=>array(
 		'Размер'=>'X', 'Цвет'=>'red'
@@ -53,5 +53,5 @@ RVi D23 - 1500 руб. процессор 2 MHz
 
 
 $id = Model::getId($pos);
-if ($id !== 'X-red') return Ans::err($ans, 'Model::getId неожиданный результат');
+if ($id !== 'X-red') return Ans::err($ans, 'Model::getId неожиданный результат: '.$id);
 return Ans::ret($ans);

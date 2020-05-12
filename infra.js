@@ -1,5 +1,5 @@
 import { Controller } from '/vendor/infrajs/controller/src/Controller.js'
 
-Controller.wait('init').then(async () => {
+Controller.hand('init', async () => {
 	await import('./init.js')
 })

@@ -1,4 +1,4 @@
-window.Dabudi = {
+let Dabudi = {
 	propget: function(pos, prop, item) {
 		if (item) {
 			if (typeof(item[prop]) != 'undefined') return item[prop];
@@ -8,3 +8,5 @@ window.Dabudi = {
 		if (pos.more && typeof(pos.more[prop]) != 'undefined') return pos.more[prop];
 	}
 }
+
+export {Dabudi}
